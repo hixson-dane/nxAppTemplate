@@ -1,0 +1,17 @@
+npx nx g @nx/js:library-dependency sdk models
+npx nx g @nx/js:library-dependency frontend sdk
+npx nx g @nx/js:library-dependency frontend components
+npx nx g @nx/js:library-dependency mobile sdk
+npx nx g @nx/js:library-dependency mobile components
+npx nx g @nx/js:library-dependency backend models
+
+npx nx sync
+
+npx nx graph
+
+10. Start Development
+You can now start the development servers for your apps:
+
+Backend: npx nx serve backend
+Frontend: npx nx serve frontend
+Mobile: Follow the React Native setup instructions for your platform.
