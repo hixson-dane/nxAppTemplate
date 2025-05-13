@@ -1,8 +1,0 @@
-{
-  "name": "@app/webApp",
-  "version": "0.0.1",
-  "private": true,
-  "nx": {
-    "name": "webApp"
-  }
-}
