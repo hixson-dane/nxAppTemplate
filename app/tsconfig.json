@@ -17,6 +17,15 @@
     },
     {
       "path": "./apps/api"
+    },
+    {
+      "path": "./shared/models"
+    },
+    {
+      "path": "./shared/sdk"
+    },
+    {
+      "path": "./shared/ui-components"
     }
   ]
 }
