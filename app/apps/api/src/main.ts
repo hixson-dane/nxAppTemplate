@@ -5,10 +5,12 @@
 
 import express from 'express';
 import * as path from 'path';
+import { pingRouter } from './resources';
 
 const app = express();
 
 app.use('/assets', express.static(path.join(__dirname, 'assets')));
+app.use('/api', pingRouter);
 
 app.get('/api', (req, res) => {
   res.send({ message: 'Welcome to api!' });
